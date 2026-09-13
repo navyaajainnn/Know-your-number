@@ -166,7 +166,7 @@ export const ADDITIONAL_QUESTIONS: QuestionDef[] = [
     field: 'existing-loan-detail',
     prompt: 'Tell us a bit more about your existing loans.',
     movesOutput: ['O1 verdict', 'O4 stress case'],
-    appliesIf: (b) => (b.existingEMIs ?? 0) > 0,
+    appliesIf: (b) => (b.existingEMIs ?? 0) > 0 || b.incomeType === 'informal',
     isAnswered: (b) => !!b.existingLoanDetail,
   },
   {
