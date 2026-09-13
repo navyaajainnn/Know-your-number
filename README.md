@@ -1,8 +1,13 @@
 # Borrower Copilot
 
 A self-assessment tool for Indian borrowers. Answer questions about your income and what you
-want to borrow; get four straight answers — should you borrow, how much, at what rate, and
-what EMI to agree to — plus a one-page Negotiation Card to take to a lender.
+want to borrow; get four straight answers :-
+1. Should you borrow at all? 
+2. How much?
+3. At what rate? 
+4. What EMI to agree to? 
+
+BONUS!! - A one-page Negotiation Card to take to a lender.
 
 No login. No credit bureau pull. Nothing typed into the app is stored or sent anywhere — it's a
 pure client-side app, all state lives in memory and disappears on refresh.
