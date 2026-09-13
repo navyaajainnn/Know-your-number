@@ -26,3 +26,35 @@ body {
     transition-duration: 0.001ms !important;
   }
 }
+
+:root {
+  --paper: 246 242 234;
+  --paper2: 239 232 217;
+  --ink: 33 28 23;
+  --inkmute: 111 103 92;
+  --line: 217 207 188;
+  --oxide: 162 59 46;
+  --oxidedark: 126 46 35;
+  --indigo: 59 74 107;
+  --indigolight: 234 237 243;
+  --safe: 75 108 78;
+  --safelight: 231 238 228;
+  --warn: 184 134 43;
+  --warnlight: 245 236 216;
+}
+
+.dark {
+  --paper: 23 18 20;
+  --paper2: 31 24 26;
+  --ink: 238 230 234;
+  --inkmute: 169 157 165;
+  --line: 51 41 46;
+  --oxide: 207 165 193;
+  --oxidedark: 224 178 207;
+  --indigo: 140 160 214;
+  --indigolight: 42 46 66;
+  --safe: 138 189 143;
+  --safelight: 30 41 32;
+  --warn: 224 162 101;
+  --warnlight: 46 36 20;
+}

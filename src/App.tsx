@@ -5,6 +5,7 @@ import { QuestionDef } from './questions/schema'
 import QuestionInput from './ui/QuestionInput'
 import ResultsScreen from './ui/ResultsScreen'
 import { runAssessment } from './rules/engine'
+import ThemeToggle from './ui/themeToggle'
 
 type Answers = Partial<BorrowerInput>
 type Stage = 'intro' | 'must' | 'interstitial' | 'additional' | 'results'
@@ -94,6 +95,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-paper">
+      <ThemeToggle />   
       <div className="max-w-xl mx-auto px-5 py-10 md:py-16">
         {stage === 'intro' && <Intro onStart={handleStart} />}
 
